@@ -1,0 +1,7 @@
+# Ignore large media
+/media/iso-vid.mp4
+/media/*.mp4
+# Common local clutter
+..vscode/
+*.log
+*.DS_Store
