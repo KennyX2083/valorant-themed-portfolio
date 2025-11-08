@@ -11,22 +11,22 @@
 
 /* Valorant Card Style */
 .welcome-card {
-  width: 280px;
+  max-width: 400px;
   background: rgba(10, 10, 10, 0.75);
   border: 2px solid rgba(255, 255, 255, 0.08);
-  padding: 1.2rem;
+  padding: 2.5rem 3rem;
   backdrop-filter: blur(10px);
   box-shadow: 0px 0px 12px rgba(0,0,0,0.8);
   position: relative;
   opacity: 0;
-  transform: translateY(15px);
+  transform: translateY(15px) scale(1.05);
   animation: fadeInUp 0.8s forwards ease-out 0.4s;
 }
 
 /* Header text style */
 .welcome-card h2 {
   margin: 0 0 .5rem;
-  font-size: 1.1rem;
+  font-size: 2rem;
   letter-spacing: 2px;
   font-weight: 700;
   color: #e5e5e5;
@@ -35,7 +35,7 @@
 
 /* Description text style */
 .welcome-card p {
-  font-size: .95rem;
+  font-size: 1.1rem;
   line-height: 1.4;
   color: #cfcfcf;
   margin: 0;
