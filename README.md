@@ -15,8 +15,8 @@ A personal portfolio website designed in the style of the **Valorant home screen
 
 - **HTML5 / CSS3 / JavaScript (Vanilla)**
 - **Google Fonts:** Rajdhani
-- **Video Backgrounds:** Custom `.mp4` media loop
-- **Git LFS** for large media file management
+- **Video Backgrounds:** Custom `.webm` media loop
+- **FFmpeg** for large media file management and compression
 
 ---
 
